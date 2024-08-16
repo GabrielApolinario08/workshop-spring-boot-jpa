@@ -41,6 +41,7 @@ public class UserService {
     }
 
     public User update(Long id, User user) {
+        if (!userRepository.existsById(id)) throw new ResourceNotFoundException(id);
         User obj = userRepository.getReferenceById(id);
         updateData(obj, user);
         return userRepository.save(obj);
