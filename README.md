@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-Este projeto backend, desenvolvido com Spring Boot e JPA/Hibernate, gerencia operações de pedidos, incluindo as entidades Pedido, Produto, Categoria, User e Pagamento. A aplicação é estruturada em camadas lógicas (resource, service, repository) e utiliza o banco de dados de teste H2. As principais funcionalidades são as operações CRUD e o tratamento de exceções, garantindo uma gestão eficiente e segura dos dados.
+Este projeto backend, desenvolvido com Spring Boot e JPA/Hibernate, gerencia operações de pedidos. A aplicação é estruturada em camadas (resource, service, repository) e utiliza o banco de dados de teste H2. As principais funcionalidades são as operações CRUD e o tratamento de exceções, garantindo uma gestão eficiente e segura dos dados.
 
 # Tecnologias utilizadas
 - Java
